@@ -1,7 +1,23 @@
-# Tauri + SvelteKit + TypeScript
-
-This template should help get you started developing with Tauri, SvelteKit and TypeScript in Vite.
-
-## Recommended IDE Setup
-
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
+┌─────────────────┬─────────────────────────────────────────────┐
+│ Capa │ Tecnología │
+├─────────────────┼─────────────────────────────────────────────┤
+│ Desktop │ Tauri 2 + React + TypeScript │
+├─────────────────┼─────────────────────────────────────────────┤
+│ UI │ shadcn/ui + Tailwind + React Query │
+├─────────────────┼─────────────────────────────────────────────┤
+│ Backend │ FastAPI (Python) — Docker │
+├─────────────────┼─────────────────────────────────────────────┤
+│ Motor horarios │ OR-Tools — dentro de FastAPI │
+├─────────────────┼─────────────────────────────────────────────┤
+│ Base de datos │ PostgreSQL + pgvector — Docker │
+├─────────────────┼─────────────────────────────────────────────┤
+│ ORM/Migraciones │ SQLAlchemy + Alembic │
+├─────────────────┼─────────────────────────────────────────────┤
+│ IA / RAG │ OpenRouter (Claude/GPT-4o) │
+├─────────────────┼─────────────────────────────────────────────┤
+│ Google Forms │ Google Sheets API │
+├─────────────────┼─────────────────────────────────────────────┤
+│ Auth │ JWT con roles (admin, coordinador, maestro) │
+├─────────────────┼─────────────────────────────────────────────┤
+│ Orquestación │ Docker Compose │
+└─────────────────┴─────────────────────────────────────────────┘
