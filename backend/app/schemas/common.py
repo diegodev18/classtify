@@ -1,0 +1,19 @@
+from typing import Any
+
+from pydantic import BaseModel, Field
+
+
+class ErrorDetail(BaseModel):
+    code: str
+    message: str
+    details: list[Any] = Field(default_factory=list)
+
+
+class ErrorResponse(BaseModel):
+    error: ErrorDetail
+
+
+class MetaPagination(BaseModel):
+    page: int
+    page_size: int
+    total: int
